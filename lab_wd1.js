@@ -1,6 +1,8 @@
 <html>
 <head>
 <title> clousure</title>
+</head>
+<body>
 <script>
 function addNumber(firstno,secondno)
 <script>
@@ -16,6 +18,6 @@ function addNumbers(firstno,secondno)
 var result=addNumbers(10,20);
 document.write(result);
 </script>
-</head>
-<body></body>
+
+</body>
 </html>
