@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Regular Expressions</title>
+	<script>
+		function valid()
+		{
+			var username = document.getElementById("u_name").value;
+			var exp1 = /@/;
+			var exp2 = /.com/i;
+			if(exp1.test(username) && exp2.test(username))
+				alert("Valid Username");
+			else
+				alert("Invalid Username");
+		}
+	</script>
+</head>
+<body>
+<form action = "message.html">
+	<input id = "uname" placeholder = "username" type = "text"/>
+	<button onclick="valid()" type = "button"> Submit </button>
+</form>
+</body>
+</html>
